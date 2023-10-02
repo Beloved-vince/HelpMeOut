@@ -83,4 +83,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 Acknowledgments
 Special thanks to the Django and SpeechRecognition communities for their excellent libraries.
 Icon made by Author Name from www.flaticon.com.
-Feel free to customize this README template to suit your project's specific details and requirements. Providing comprehensive documentation helps users understand and use your project effectively. Happy coding!
+
+
+#### Happy coding!
