@@ -1,0 +1,78 @@
+[
+    {
+        "timestamp": "0.00",
+        "text": "jungle project the default configuration uses an SQL database it is automatically set inside the file settings.py file this means that you can directly start working with the database"
+    },
+    {
+        "timestamp": "0.15",
+        "text": "sky light is known as a user-friendly zero configuration database and there are many advantages to using it you don't need to install anything to support the database as it doesn't run as a server Pro"
+    },
+    {
+        "timestamp": "0.30",
+        "text": "this means the database does not need to be started or stopped or require additional configuration files as a result this type of database is suitable for small projects or rapid prototyping supposed"
+    },
+    {
+        "timestamp": "0.45",
+        "text": "need a quick test environment in that case SQL is a solid option as it doesn't require running a separate server they may be occasions when a more scalable robust database is needed for exam"
+    },
+    {
+        "timestamp": "1.00",
+        "text": "from a development to production environment in this video you will learn how to configure database options to work with a MySQL database in a jungle project Django support the use of many databases with"
+    },
+    {
+        "timestamp": "1.15",
+        "text": "these include postgres equal Maria DB MySQL oracle and SQL light among these postgres equal and MySQL are most commonly used"
+    },
+    {
+        "timestamp": "1.30",
+        "text": "what feature is to support each database that make it easy to connect and work with it provides a generic way to access the different types of databases and a connection to a database is established by knowing the type of database within the"
+    },
+    {
+        "timestamp": "1.45",
+        "text": "you with one of the most popular and widely used databases MySQL Let's Begin by exploring how to set up database connections to a MySQL database to connect to a MySQL database you need to print"
+    },
+    {
+        "timestamp": "2.00",
+        "text": "database is running the port number and the database name you wish to connect to you also need a database driver which is responsible from napping all the models and translating Python queries into sequel instructions via"
+    },
+    {
+        "timestamp": "2.15",
+        "text": "to use MySQL the driver or connector MySQL client needs to be installed when you connect to a database the connection opens and each request and is kept open first Pacific Time the connection is control"
+    },
+    {
+        "timestamp": "2.30",
+        "text": "8 parameter and represents a certain time before the connection is automatically closed to establish a connection you must configure parameters under the databases option of the settings.py file"
+    },
+    {
+        "timestamp": "2.45",
+        "text": "the configuration is fescue allies you can also use an options file for MySQL restore the database connection credentials and you will learn about it later in this lesson the credentials can include"
+    },
+    {
+        "timestamp": "3.00",
+        "text": "username and password that are stored in a separate configuration file inside the file settings.py the MySQL connection reference looks for the connection file in the directory at C forward slash MySQL"
+    },
+    {
+        "timestamp": "3.15",
+        "text": "this is now within the triangle project this is a deliberate security measure okay now that you know the steps needed to connect to a MySQL database let's explore database creation while jungle create"
+    },
+    {
+        "timestamp": "3.30",
+        "text": "the models you have from the migration scripts the initial setup requires you to manually create the database creating a database requires a connection to the database itself and sufficient permissions for authentication and authorisation"
+    },
+    {
+        "timestamp": "3.45",
+        "text": "it's important to remember that you must keep the database secure by assigning security roles and using strong usernames and passwords a data stored may contain into users personal information so keeping it private and safe is up"
+    },
+    {
+        "timestamp": "4.00",
+        "text": "as a developer you need to be aware of potential security risks and one significant risk is the security of the credentials of your database allows someone to know or access the username and password of"
+    },
+    {
+        "timestamp": "4.15",
+        "text": "can have major consequences the database connection credentials are only accessible on the virtual machine or server with the web application is running in this video you learnt how to configure database options to work with"
+    },
+    {
+        "timestamp": "4.30",
+        "text": "any jungle Project"
+    }
+]
