@@ -84,5 +84,13 @@ Acknowledgments
 Special thanks to the Django and SpeechRecognition communities for their excellent libraries.
 Icon made by Author Name from www.flaticon.com.
 
+# How to Contribute
+
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature-name`)
+3. Commit your changes (`git commit -am 'Add feature'`)
+4. Push to the branch (`git push origin feature-name`)
+5. Create a new pull request
+
 
 #### Happy coding!
