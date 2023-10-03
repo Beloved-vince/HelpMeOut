@@ -49,7 +49,7 @@ Before you begin, ensure you have met the following requirements:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/video-transcription-tool.git
+   git clone https://github.com/belovedvince/HELPMEOUT.git
 
 
 Install the required Python packages:
