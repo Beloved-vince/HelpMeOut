@@ -80,6 +80,63 @@ Create a pull request with a clear description of your changes.
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
+## Docs
+
+Testing the Video Upload API Endpoint
+API Endpoint
+POST /api/upload/
+
+This API endpoint allows you to upload a video file along with its title.
+
+Request
+To test the API endpoint, send a POST request with the following form data:
+
+video_title: The title of the video.
+video_file: The video file to be uploaded.
+
+### Example Using curl (Command Line)
+curl -X POST -F "video_title=Your Video Title" -F "video_file=@/path/to/your/video.mp4" http://example.com/api/upload/
+Replace Your Video Title with the desired title and /path/to/your/video.mp4 with the actual path to your video file.
+
+### Example Using Python requests Library
+python
+import requests
+
+url = "http://example.com/api/upload/"
+video_title = "Your Video Title"
+video_file_path = "/path/to/your/video.mp4"
+
+files = {
+    "video_title": (None, video_title),
+    "video_file": (os.path.basename(video_file_path), open(video_file_path, "rb"))
+}
+
+response = requests.post(url, files=files)
+
+print(response.status_code)
+print(response.json())
+Replace Your Video Title with the desired title and /path/to/your/video.mp4 with the actual path to your video file.
+
+Response
+Upon successful upload, the API will respond with a JSON object containing details about the uploaded video, including an ID, video title, file URL, and any other relevant information.
+
+Example Response:
+This README section provides users with instructions on how to test the video upload functionality using both curl and Python's requests library.
+json
+Copy code
+{
+    "id": 1,
+    "title": "Your Video Title",
+    "video": "http://localhost/media/uploads/video.mp4",
+    "timestamp": "2023-10-15T12:34:56Z"
+}
+
+
+
+
+
+
+
 Acknowledgments
 Special thanks to the Django and SpeechRecognition communities for their excellent libraries.
 Icon made by Author Name from www.flaticon.com.
